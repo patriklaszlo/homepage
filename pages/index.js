@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import me from "../public/patrik_final_BW.webp";
+// import me from "../public/patrik_final_BW.webp";
 import AnimatedButton from "../components/AnimatedButton";
 import { WordRotate } from "../components/WordRotate";
 
@@ -19,11 +19,11 @@ export default function Home() {
       <main className="flex flex-col-reverse lg:flex-row lg:h-screen">
         <div className="h-[450px] md:h-[700px] lg:h-[90%] lg:w-[48%] shrink-0 p-6 lg:pl-12 lg:self-center">
           <div className="bg-gray-100 rounded-[32px] h-full flex overflow-hidden relative object-cover">
-            <Image
+            <img
               className="mt-auto block w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              src={me}
+              src={"/patrik_final_BW.webp"}
               alt="Photo of Patrik Laszlo"
-            ></Image>
+            ></img>
           </div>
         </div>
         <div className="my-6 mb-2 md:my-8 lg:mt-32 lg:w-[52%] flex flex-col p-6 lg:p-12 xl:p-16 text-black">

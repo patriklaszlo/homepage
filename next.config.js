@@ -9,11 +9,13 @@
 
 // module.exports = nextConfig;
 
-const withPlugins = require("next-compose-plugins");
-const optimizedImages = require("next-optimized-images");
+// const withPlugins = require("next-compose-plugins");
+// const optimizedImages = require("next-optimized-images");
 
 const config = {
   swcMinify: true,
+  reactStrictMode: true,
+  output: "export",
   images: {
     disableStaticImages: true,
     domains: ["localhost"],
@@ -24,14 +26,4 @@ const config = {
   },
 };
 
-module.exports = withPlugins(
-  [
-    [
-      optimizedImages,
-      {
-        // optimizeImages: false,
-      },
-    ],
-  ],
-  config
-);
+module.exports = config;
