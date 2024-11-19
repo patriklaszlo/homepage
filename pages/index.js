@@ -14,14 +14,14 @@ export default function Home() {
           name="description"
           content="Creating beautiful products that make people's lives easier."
         />
-        <link rel="icon" href="/homepage/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col-reverse lg:flex-row lg:h-screen">
         <div className="h-[450px] md:h-[700px] lg:h-[95%] lg:w-[48%] shrink-0 p-6 lg:pl-12 lg:self-center">
           <div className="bg-gray-100 rounded-[32px] h-full flex overflow-hidden relative object-cover">
             <img
               className="mt-auto block w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              src={"/homepage/patrik_final_BW.webp"}
+              src={"/patrik_final_BW.webp"}
               alt="Photo of Patrik Laszlo"
             ></img>
           </div>
