@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col-reverse lg:flex-row lg:h-screen">
-        <div className="h-[450px] md:h-[700px] lg:h-[95%] lg:w-[48%] shrink-0 p-6 lg:pl-12 lg:self-center">
+        <div className="h-[450px] md:h-[700px] lg:h-[97%] lg:w-[48%] shrink-0 p-6 lg:pl-12 lg:self-center">
           <div className="bg-gray-100 rounded-[32px] h-full flex overflow-hidden relative object-cover">
             <img
               className="mt-auto block w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
@@ -41,7 +41,7 @@ export default function Home() {
               className={"text-black/50"}
             />
           </div>
-          <h1 className="tracking-tight whitespace-nowrap text-4xl md:text-7xl lg:text-[clamp(20px,4.9vw,72px)] leading-[1] font-bold my-2 mb-7 md:my-4 md:mb-8 lg:my-8 lg:mb-12">
+          <h1 className="tracking-tight whitespace-nowrap text-4xl md:text-7xl lg:text-[clamp(20px,4.9vw,72px)] leading-[1] font-bold my-2 mb-7 md:my-4 md:mb-8 lg:my-8 lg:mb-14">
             Creating beautiful <br />
             products that make
             <br /> people&apos;s lives easier.
