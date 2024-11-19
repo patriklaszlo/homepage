@@ -44,7 +44,7 @@ export default function Home() {
           <h1 className="tracking-tight whitespace-nowrap text-4xl md:text-7xl lg:text-[clamp(20px,4.9vw,72px)] leading-[1] font-bold my-2 mb-6 md:my-4 md:mb-8 lg:my-8 lg:mb-12">
             Creating beautiful <br />
             products that make
-            <br /> people's lives easier.
+            <br /> people&apos;s lives easier.
           </h1>
           <div className="flex gap-6">
             <AnimatedButton />
