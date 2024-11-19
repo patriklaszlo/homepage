@@ -46,16 +46,16 @@ export default function Home() {
             products that make
             <br /> people&apos;s lives easier.
           </h1>
-          <div className="flex gap-4 xs:gap-6">
+          <div className="flex items-stretch gap-4 xs:gap-6">
             <AnimatedButton />
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
               <Link
                 href="https://www.instagram.com/iampatriklaszlo"
                 prefetch={false}
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-[44px] sm:w-[52px] md:w-auto flex items-center justify-center  xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black duration-200 cursor-pointer rounded-full"
+                className="h-full aspect-square flex items-center justify-center bg-gray-100 group hover:bg-black duration-200 cursor-pointer rounded-full"
               >
                 {" "}
                 <svg
@@ -74,7 +74,7 @@ export default function Home() {
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-[44px] sm:w-[52px] md:w-auto flex items-center justify-center xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black cursor-pointer duration-200 rounded-full"
+                className="h-full aspect-square flex items-center justify-center bg-gray-100 group hover:bg-black cursor-pointer duration-200 rounded-full"
               >
                 {" "}
                 <svg

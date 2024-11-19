@@ -14,16 +14,7 @@
 
 const config = {
   reactStrictMode: true,
-  basePath: "/homepage",
   output: "export",
-  images: {
-    disableStaticImages: true,
-    domains: ["localhost"],
-    formats: ["image/avif", "image/webp"],
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
 };
 
 module.exports = config;
