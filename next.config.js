@@ -15,6 +15,7 @@
 const config = {
   swcMinify: true,
   reactStrictMode: true,
+  basePath: "/homepage",
   output: "export",
   images: {
     disableStaticImages: true,
