@@ -12,7 +12,7 @@ export default function Home() {
         <title>Patrik Laszlo</title>
         <meta
           name="description"
-          content="Making beautiful products that make peoples lives easier."
+          content="Creating beautiful products that make people's lives easier."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
