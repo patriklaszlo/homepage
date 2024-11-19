@@ -26,7 +26,7 @@ export default function Home() {
             ></img>
           </div>
         </div>
-        <div className="my-6 mb-2 md:my-8 lg:mt-32 lg:w-[52%] flex flex-col p-6 lg:p-12 xl:p-16 text-black">
+        <div className="my-2 mb-2 md:my-8 lg:mt-32 lg:w-[52%] flex flex-col p-6 lg:p-12 xl:p-16 text-black">
           <div className="flex gap-3 items-center text-xl lg:text-2xl">
             <h2 className="">Patrik Laszlo</h2>
             <span>·</span>
@@ -41,12 +41,12 @@ export default function Home() {
               className={"text-black/50"}
             />
           </div>
-          <h1 className="tracking-tight whitespace-nowrap text-4xl md:text-7xl lg:text-[clamp(20px,4.9vw,72px)] leading-[1] font-bold my-2 mb-6 md:my-4 md:mb-8 lg:my-8 lg:mb-12">
+          <h1 className="tracking-tight whitespace-nowrap text-4xl md:text-7xl lg:text-[clamp(20px,4.9vw,72px)] leading-[1] font-bold my-2 mb-7 md:my-4 md:mb-8 lg:my-8 lg:mb-12">
             Creating beautiful <br />
             products that make
             <br /> people&apos;s lives easier.
           </h1>
-          <div className="flex gap-6">
+          <div className="flex gap-4 xs:gap-6">
             <AnimatedButton />
             <div className="flex gap-2">
               <Link
@@ -55,12 +55,12 @@ export default function Home() {
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-[52px] flex items-center justify-center  xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black duration-200 cursor-pointer rounded-full"
+                className="w-[44px] sm:w-[52px] md:w-auto flex items-center justify-center  xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black duration-200 cursor-pointer rounded-full"
               >
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 xs:h-7 xs:w-7 lg:h-7 lg:w-7 fill-gray-900 duration-200 group-hover:fill-white"
+                  className="h-6 w-6 sm:h-7 sm:w-7 lg:h-7 lg:w-7 fill-gray-900 duration-200 group-hover:fill-white"
                   viewBox="0 0 512 512"
                 >
                   <title>Logo Instagram</title>
@@ -74,7 +74,7 @@ export default function Home() {
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-[52px] flex items-center justify-center xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black cursor-pointer duration-200 rounded-full"
+                className="w-[44px] sm:w-[52px] md:w-auto flex items-center justify-center xs:w-auto p-3 xs:p-5 lg:p-7 bg-gray-100 group hover:bg-black cursor-pointer duration-200 rounded-full"
               >
                 {" "}
                 <svg
@@ -84,7 +84,7 @@ export default function Home() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   strokeWidth="2"
-                  className="ai ai-LinkedinFill h-6 w-6 xs:h-7 xs:w-7 lg:h-7 lg:w-7 fill-gray-900 duration-200 group-hover:fill-white"
+                  className="ai ai-LinkedinFill h-6 w-6 sm:h-7 sm:w-7 lg:h-7 lg:w-7 fill-gray-900 duration-200 group-hover:fill-white"
                 >
                   <path
                     fillRule="evenodd"

@@ -62,7 +62,7 @@ const AnimatedButton = () => {
           </motion.span>
           <motion.span
             variants={contentVariants}
-            className="text-lg text-white"
+            className="text-sm sm:text-lg text-white"
           >
             Get in touch
           </motion.span>

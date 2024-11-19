@@ -13,7 +13,6 @@
 // const optimizedImages = require("next-optimized-images");
 
 const config = {
-  swcMinify: true,
   reactStrictMode: true,
   basePath: "/homepage",
   output: "export",
